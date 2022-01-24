@@ -1,4 +1,4 @@
-package com.LockedMe;
+package com.lockers.lockedme;
 
 import java.io.File;
 import java.io.PrintWriter;
@@ -7,8 +7,8 @@ import java.util.Scanner;
 
 public class LockedMe {
 	private static int count = 0;
-	public static final String ERROR_MESSAGE = "Oops, an error occured! Please contact : admin@LockedMe.com";
-	public static final String PROJECT_FILES_PATH = "D:\\\\final project\\\\LockedMeFiles";
+	static final String ERROR_MESSAGE = "Oops, an error occured! Please contact : admin@LockedMe.com";
+	static final String PROJECT_FILES_PATH = "D:\\\\final project\\\\LockedMeFiles";
 
 	public static void main(String[] args) {
 		Scanner userInput = new Scanner(System.in);
