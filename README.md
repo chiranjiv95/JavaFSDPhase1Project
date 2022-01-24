@@ -3,7 +3,7 @@ LockedMe: Virtual Key for Your Repositories
 
 # Steps to Run the Application
 
-In Command Line, execute the below commands from JavaFSDPhase1Project-main\JavaFSDPhase1Project-main\JavaFSD_Phase1\src directory :
+In Command Line, execute the below commands from "JavaFSDPhase1Project-main\JavaFSDPhase1Project-main\JavaFSD_Phase1\src" directory :
 
   * javac com\lockers\lockedme\LockedMe.java
 
