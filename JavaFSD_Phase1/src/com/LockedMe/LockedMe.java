@@ -1,18 +1,16 @@
 package com.LockedMe;
 
-import static com.LockedMe.Constants.ERROR_MESSAGE;
-import static com.LockedMe.Constants.PROJECT_FILES_PATH;
-
 import java.io.File;
 import java.io.PrintWriter;
 import java.util.LinkedList;
 import java.util.Scanner;
 
-class LockedMe {
+public class LockedMe {
 	private static int count = 0;
+	public static final String ERROR_MESSAGE = "Oops, an error occured! Please contact : admin@LockedMe.com";
+	public static final String PROJECT_FILES_PATH = "D:\\\\final project\\\\LockedMeFiles";
 
 	public static void main(String[] args) {
-
 		Scanner userInput = new Scanner(System.in);
 		int options;
 		String choice;
@@ -20,7 +18,7 @@ class LockedMe {
 			if (count == 0) {
 				welcomeScreen();
 			} else {
-				System.out.println("Back to Main Menu (Y/N): ");
+				System.out.println("\n\nBack to Welcome Screen ? (Y/N):");
 				choice = userInput.nextLine();
 				if (choice.equalsIgnoreCase("Y")) {
 					welcomeScreen();
@@ -28,7 +26,6 @@ class LockedMe {
 					System.exit(0);
 				}
 			}
-
 			System.out.println("Enter your option :");
 			options = Integer.parseInt(userInput.nextLine());
 			switch (options) {
